@@ -4,4 +4,5 @@ function times2(numbers) {
     return _.map(numbers, (n) => n * 2);
 }
 
+console.log('update');
 console.log(times2([1, 2, 3]));
