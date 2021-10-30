@@ -25,6 +25,10 @@ jobs:
       - name: List files in the repository
         run: ls ${{ github.workspace }}
 
+      - uses: webfactory/ssh-agent@v0.5.3
+        with:
+            ssh-private-key: ${{ secrets.DEPLOY_KEY_URBN_FORM_VALIDATIONS }}
+
       - name: NPM Install
         run: npm ci
 
