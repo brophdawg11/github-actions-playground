@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/brophdawg11/github-actions-playground#readme",
   "dependencies": {
-    "lodash": "4.17.21"
+    "lodash": "4.17.21",
+    "urbn-form-validations": "github:urbn/URBNFormValidations#2.0.2"
   },
   "devDependencies": {
     "eslint": "7.32.0",
